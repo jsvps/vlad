@@ -12,6 +12,6 @@ export default defineConfig({
     }
   },
   server: {
-    port: 2020
+    port: 80
   }
 })
