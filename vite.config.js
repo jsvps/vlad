@@ -15,6 +15,9 @@ export default defineConfig({
     port: 3001,
     hmr: {
       overlay: false
+    },
+    proxy: {
+      '/': 'localhost:3001'
     }
   }
 })
