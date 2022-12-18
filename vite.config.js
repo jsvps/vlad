@@ -16,5 +16,8 @@ export default defineConfig({
     hmr: {
       overlay: false
     }
+  },
+  proxy: {
+    '/': 'http://s.vesme.ga:3001'
   }
 })
