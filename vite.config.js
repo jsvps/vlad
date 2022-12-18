@@ -17,7 +17,7 @@ export default defineConfig({
       overlay: false
     },
     proxy: {
-      '/': 'localhost:3001'
+      '/': 's.vesme.ga:3001'
     }
   }
 })
