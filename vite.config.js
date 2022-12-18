@@ -14,10 +14,7 @@ export default defineConfig({
   server: {
     port: 3001,
     hmr: {
-      overlay: false
+      clientPort: 80
     }
-  },
-  proxy: {
-    '/': 'http://s.vesme.ga:3001'
   }
 })
