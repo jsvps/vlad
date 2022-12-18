@@ -14,7 +14,7 @@ export default defineConfig({
   server: {
     port: 3001,
     hmr: {
-      server: s.vesme.ga
+      server: 's.vesme.ga'
     }
   }
 })
