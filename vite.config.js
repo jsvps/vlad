@@ -17,6 +17,12 @@ export default defineConfig({
   server: {
     port: 3001,
     host: 's.vesme.ga',
-    hmr: false
+    hmr: false,
+    proxy: {
+      '/socket.io': {
+        target: 'ws://localhost:3001',
+        ws: true,
+      }
+    }
   }
 })
