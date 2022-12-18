@@ -12,9 +12,6 @@ export default defineConfig({
     }
   },
   server: {
-    port: 3001,
-    hmr: {
-      server: '95.163.233.82'
-    }
+    port: 3001
   }
 })
